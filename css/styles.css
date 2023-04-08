@@ -1,0 +1,188 @@
+:root {
+	/* Colors */
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: #2e2f42;
+	--grey: #2e2f42;
+	--white: #ffffff;
+	--dairy: #fcfcfc;
+	/* Fonts */
+	--primary-font: Roboto, sans-serif;
+	--secondary-font: Raleway, sans-serif;
+}
+
+body {
+    background-color: var(--white);
+    font-family: var(--primary-font);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+	letter-spacing: 0.02em; 
+	font-style: normal;
+    color: var(--slate);
+}
+.link {text-decoration: none;
+	color: currentColor;}
+.list {list-style: none;}
+
+/* Recurring classes */
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--navy-blue);
+}
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue)
+}
+.desc {
+	letter-spacing: 0.02em; 
+}
+
+
+/* Header */
+	.header {
+    	background-color: var(--white);
+	}
+
+	/* Logo */
+	.logo {
+   		font-family: var(--secondary-font);
+    	font-size: 18px;
+    	font-weight: 800;
+		line-height: 1.17;
+		letter-spacing: 0.03em;
+		color: var(--iris);
+		text-transform: uppercase;
+	}
+	.header-logo {
+		font-family: var(--secondary-font);
+    	font-size: 18px;
+    	font-weight: 800;
+		line-height: 1.17;
+		letter-spacing: 0.03em;
+		color: var(--navy-blue);
+		text-transform: uppercase;
+	}
+
+	/* Nav */
+	.header-menu a {
+		font-weight: 500;
+		color: var(--navy-blue)
+	}
+	.header-menu a:hover {
+		color: var(--ocean);
+	}
+	.header-menu a:focus {
+		color: var(--ocean);
+	}
+
+	/* Contacts */
+	.header-contacts {
+		font-style: normal;
+	}
+	.header-contacts a {
+		color: var(--slate);
+	}
+	.header-contacts a:hover {
+		color: var(--ocean);
+	}
+	.header-contacts a:focus {
+		color: var(--ocean);
+	}
+
+/* Hero image */
+	.studio {
+		background-color: var(--navy-blue);
+	}
+	.hero-title {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		letter-spacing: 0.02em;
+		color: var(--white);
+		text-align: center;
+	}
+	.hero-btn {
+		font-family: inherit;
+		font-weight: 500;
+		font-size: 16px;
+    	line-height: 1.5;
+		letter-spacing: 0.04em;
+		align-items: center;
+		color: var(--white);
+		background-color: var(--iris);
+		cursor: pointer;
+	}
+	.hero-btn:hover {
+		background-color: var(--ocean);
+	}
+	.hero-btn:focus {
+		background-color: var(--ocean);
+	}
+
+/* Section Team */
+	.team {
+		background-color: var(--cloud);
+	}
+	.team-list-item {
+		background-color: var(--white);
+	}
+	
+/* Footer */
+	.footer {
+		background-color: var(--navy-blue);
+	}
+	.footer-logo {
+		font-family: var(--secondary-font);
+    	font-size: 18px;
+    	font-weight: 800;
+		line-height: 1.17;
+		letter-spacing: 0.03em;
+		color: var(--cloud);
+		text-transform: uppercase;
+	}
+	.footer p {
+		color: var(--cloud)
+	}
+
+
+/* Portfolio */
+	.portfolio-btn {
+		font-family: inherit;
+		font-weight: 500;
+		text-align: center;
+		font-size: 16px;
+    	line-height: 1.5;
+		letter-spacing: 0.04em;
+		color: var(--iris);
+		background-color: var(--cloud);
+		cursor: pointer;
+	}
+	.portfolio-btn-list button:hover {
+		color: var(--white);
+		background-color: var(--ocean);
+	}
+	.portfolio-btn-list button:focus {
+		color: var(--white);
+		background-color: var(--ocean);
+	}
+	.portfolio-card-list h2 {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1.2;
+		color: var(--navy-blue)
+	}
