@@ -93,7 +93,6 @@ img {
 	margin-right: 0;
 }
 
-
 /* Header */
 	.header {
     	background-color: var(--white);
@@ -206,8 +205,10 @@ img {
 		align-items: flex-start;
 	}
 	.features-list-item {
-		margin-right: 24px;
 		width: calc((100% - 72px) / 4);
+	}
+	.features-list li {
+		margin-right: 24px;
 	}
 	.features-list-item:last-child {
 		margin-right: 0;
@@ -318,9 +319,11 @@ img {
 	.portfolio-card-list {
 		flex-wrap: wrap;
 	}
-	.portfolio-card-list-item {
+	.portfolio-card-list li {
 		margin-right: 24px;
 		margin-bottom: 48px;
+	}
+	.portfolio-card-list-item {
 		width: calc((100% - 48px) / 3);
 	}
 	.portfolio-card-list li:nth-child(3n) {
