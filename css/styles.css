@@ -111,7 +111,6 @@ img {
 		letter-spacing: 0.03em;
 		color: var(--iris);
 		text-transform: uppercase;
-		padding: 24px 0px;
 		margin-right: 76px;
 	}
 	.header-logo {
@@ -132,6 +131,7 @@ img {
 		font-weight: 500;
 		color: var(--navy-blue);
 		padding: 24px 0px;
+		display: block;
 	}
 	.header-menu a:hover {
 		color: var(--ocean);
